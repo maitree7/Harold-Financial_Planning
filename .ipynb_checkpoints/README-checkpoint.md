@@ -24,13 +24,13 @@ We will help Harold complete the following tasks:
 
 - - -
 
-#### Budget Analysis
+### Budget Analysis
 
 Below are the budget analysis report using the transaction details retrieved from the Plaid API.
 
 1. Income Analysis Report using Plaid
 
-    ```python
+    ```
     The Previous year gross income : 7285.0$
     The Current monthly income : 500.0$
     The Projected yearly income : 6085.0$
@@ -54,12 +54,12 @@ Below are the budget analysis report using the transaction details retrieved fro
       <img src="Images/spending-month.png" alt="Expenses per category" width="500"/>
 
 
-#### Retirement Planner
+### Retirement Planner
 
 Using the IEX API to fetch historical closing prices for a retirement portfolio using the `SPY` and `AGG` tickers to represent the 60% stocks (SPY) and 40% bonds (AGG) and then run Monte Carlo simulations to project the portfolio performance at 30 years. 
 
 
-##### Monte Carlo Simulation
+#### Monte Carlo Simulation
 
 
 1. Visualization of `500` simulations of the potential trajectories of the portfolio based on next 30 years
@@ -71,7 +71,7 @@ Using the IEX API to fetch historical closing prices for a retirement portfolio 
     <img src="Images/histogram.png" alt="histogram" width="500"/>
     
 
-##### Retirement Analysis
+#### Retirement Analysis
 
 Use the Monte Carlo simulation data to answer the following questions:
 
