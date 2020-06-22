@@ -108,17 +108,5 @@ Use the Monte Carlo simulation data to answer the following questions:
     
     <img src="Images/projected-returns.png" alt="Projected Returns" width="500"/>
 
+---
 
-
-#### Optional Challenge — Early Retirement
-
-Harold was really impressed with your work on this planner, but commented that 30 years seems like such a long time to wait to retire! Harold starts wondering if the retirement plan could be adjusted to retire earlier than normal. Try adjusting the portfolio to either include more risk (a higher stock than bond ratio) or to have a larger initial investment and rerun the retirement analysis to see what it would take to retire in five years instead of 30!
-
-
-### Hints and Considerations
-
-[Plaid API Docs](https://plaid.com/docs/)
-
-[IEX Financial API Docs](https://addisonlynch.github.io/iexfinance/stable/)
-
-For the Monte Carlo simulation, start out by running 100 simulations for one year of returns, and when you have the code worked out, run the simulation at 100–500 simulations for 30 years (this takes a long time).
